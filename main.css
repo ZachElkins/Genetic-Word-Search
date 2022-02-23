@@ -1,0 +1,31 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+
+#inputs, #value, #pop {
+    padding: 10px;
+}
+
+#main-content {
+    border-width: 2px;
+    border-style: dashed;
+    text-align: center;
+}
+
+#value {
+    border-bottom: 1px solid;
+}
+
+.guess {
+    width: 100%;
+}
+
+.found {
+    background-color: yellow;
+}
